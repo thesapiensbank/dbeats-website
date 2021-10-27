@@ -1,7 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Banner from "./components/banner/banner";
-import Navbar from "./components/navbar/navbar";
 import Poster from "./components/poster/poster";
 import Stars from "./components/starysky/starysky";
 import Discord from "./assets/icons/discord-mascot.png";
