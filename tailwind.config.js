@@ -71,6 +71,7 @@ module.exports = {
       // ...
       display: ["dark"],
       animation: ["hover", "focus"],
+      position: ["hover", "focus"],
     },
   },
   plugins: [require("@tailwindcss/forms"), require("tailwindcss-filters")],

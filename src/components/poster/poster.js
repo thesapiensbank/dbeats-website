@@ -59,7 +59,7 @@ export default function Example() {
                   ]}
                 />
               </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              <p className="mt-3 text-base  text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Run your community in the same place as you sell digital{" "}
                 <strong>NFTs</strong>, <strong>Music</strong>,{" "}
                 <strong>Arts</strong>, host <strong>Events</strong>, post{" "}
@@ -87,8 +87,8 @@ export default function Example() {
           </main>
         </div>
       </div>
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <Lottie options={defaultOptions} height={600} width={500} />
+      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 p-20">
+        <Lottie options={defaultOptions} />
       </div>
     </div>
   );
