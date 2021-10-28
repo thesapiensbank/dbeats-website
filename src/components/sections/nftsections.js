@@ -60,7 +60,11 @@ function NFTsection() {
               </div>
               <div className="grid grid-cols-5 self-center text-left mt-3">
                 <div className="col-span-2 flex self-center text-left  ">
-                  <img src={Discord} className="h-12 w-12 mr-3"></img>
+                  <img
+                    src={Discord}
+                    className="h-12 w-12 mr-3"
+                    alt="orion"
+                  ></img>
                   <div className=" text-left">
                     <p>Creator</p>
                     <strong>@orion</strong>
@@ -68,7 +72,11 @@ function NFTsection() {
                 </div>
                 <div className="col-span-1"></div>
                 <div className="col-span-2 flex self-center text-left  ">
-                  <img src={Discord} className="h-12 w-12 mr-3"></img>
+                  <img
+                    src={Discord}
+                    className="h-12 w-12 mr-3 "
+                    alt="orion"
+                  ></img>
                   <div className=" text-left ">
                     <p>Owner</p>
                     <strong>@nebula</strong>
@@ -90,7 +98,11 @@ function NFTsection() {
               </div>
               <div className="grid grid-cols-5 self-center text-left mt-3">
                 <div className="col-span-2 flex self-center text-left  ">
-                  <img src={Discord} className="h-12 w-12 mr-3"></img>
+                  <img
+                    src={Discord}
+                    className="h-12 w-12 mr-3"
+                    alt="orion"
+                  ></img>
                   <div className=" text-left">
                     <p>Creator</p>
                     <strong>@orion</strong>
@@ -98,7 +110,11 @@ function NFTsection() {
                 </div>
                 <div className="col-span-1"></div>
                 <div className="col-span-2 flex self-center text-left  ">
-                  <img src={Discord} className="h-12 w-12 mr-3"></img>
+                  <img
+                    src={Discord}
+                    className="h-12 w-12 mr-3"
+                    alt="orion"
+                  ></img>
                   <div className=" text-left ">
                     <p>Owner</p>
                     <strong>@nebula</strong>
@@ -121,6 +137,7 @@ function NFTsection() {
                 <div className="col-span-2 flex self-center text-left  ">
                   <img
                     src={orion}
+                    alt="orion"
                     className="h-12 w-12 mr-3 rounded-full"
                   ></img>
                   <div className=" text-left">
@@ -130,7 +147,11 @@ function NFTsection() {
                 </div>
                 <div className="col-span-1"></div>
                 <div className="col-span-2 flex self-center text-left  ">
-                  <img src={cat} className="h-12 w-12 mr-3 rounded-full"></img>
+                  <img
+                    src={cat}
+                    className="h-12 w-12 mr-3 rounded-full"
+                    alt="orion"
+                  ></img>
                   <div className=" text-left ">
                     <p>Owner</p>
                     <strong>@nebula</strong>
@@ -182,14 +203,22 @@ function NFTsection() {
                 href="https://discord.gg/xZavZyAbx4"
                 className="h-16 w-16 m-2   rounded-full cursor-pointer  shadow-md z-200 hover:scale-95 transform transition-all "
               >
-                <img className="h-16 w-16 rounded-full" src={Discord} alt="" />
+                <img
+                  className="h-16 w-16 rounded-full"
+                  src={Discord}
+                  alt="orion"
+                />
               </a>
 
               <a
                 href="https://twitter.com/DBeatsLive"
                 className="h-16 w-16  m-2  bg-blue-400 rounded-full cursor-pointer  shadow-md z-200 hover:scale-95 transform transition-all "
               >
-                <img className="h-16 w-16  rounded-full" src={Twitter} alt="" />
+                <img
+                  className="h-16 w-16  rounded-full"
+                  src={Twitter}
+                  alt="orion"
+                />
               </a>
             </div>
           </div>
