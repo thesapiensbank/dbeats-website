@@ -1,21 +1,12 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
-import animationData from "../../lotties/coolchick.json";
-import Lottie from "react-lottie";
+
 import Cards from "../cards/cards";
 import "../../assets/styles/styles.css";
 
 var ReactRotatingText = require("react-rotating-text");
 
-const defaultOptions = {
-  loop: true,
-  autoplay: true,
-  animationData: animationData,
-  rendererSettings: {
-    preserveAspectRatio: "xMidYMid slice",
-  },
-};
 export default function Example() {
   return (
     <div className="relative bg-transparent overflow-hidden h-screen">
