@@ -46,7 +46,7 @@ const defaultOptions4 = {
 function NFTsection() {
   return (
     <>
-      <div className="    text-left grid grid-cols-2 p-4 gap-10 h-screen">
+      <div className="    text-left grid lg:grid-cols-2   md:p-10 p-4 gap-10 h-screen">
         <div className="   rounded-xl col-span-1 mx-auto   w-96 h-96  relative self-center  ">
           <div className="bg-gradient-to-r from-green-200 via-green-300 to-blue-500 p-0.5 rounded w-96   text-white  rotate-12 transform    absolute left-20 hover:-translate-y-40 hover:translate-x-40 transition-all">
             <div className=" bg-dbeats-dark-primary p-4">
@@ -173,11 +173,10 @@ function NFTsection() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-2  p-10 gap-10 px-24">
+      <div className="grid lg:grid-cols-2   md:p-10 gap-10 md:px-24 px-12">
         <div className="col-span-1 self-center">
           <h3 className="  w-full text-2xl font-extrabold text-left   text-transparent bg-clip-text bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light drop-shadow-sm   sm:text-3xl my-5 col-span-1">
-            Create community channels with voice & text or setup your own NFT
-            Store
+            Create voice & text community channels or setup your own NFT Store
           </h3>
           <p className="text-white text-left">
             Creators can choose to mint NFT of any content which they upload may
@@ -201,7 +200,7 @@ function NFTsection() {
             <div className="inline-flex rounded-md  ">
               <a
                 href="https://discord.gg/xZavZyAbx4"
-                className="h-16 w-16 m-2   rounded-full cursor-pointer  shadow-md z-200 hover:scale-95 transform transition-all "
+                className="h-16 w-16 m-2   rounded-full cursor-pointer  shadow-md z-200 hover:scale-95 transform transition-all hover:shadow-none"
               >
                 <img
                   className="h-16 w-16 rounded-full"
@@ -209,16 +208,33 @@ function NFTsection() {
                   alt="orion"
                 />
               </a>
-
               <a
                 href="https://twitter.com/DBeatsLive"
-                className="h-16 w-16  m-2  bg-blue-400 rounded-full cursor-pointer  shadow-md z-200 hover:scale-95 transform transition-all "
+                className="h-16 w-16  m-2  bg-blue-400 rounded-full cursor-pointer  shadow-md z-200 hover:scale-95 transform transition-all hover:shadow-none"
               >
                 <img
                   className="h-16 w-16  rounded-full"
                   src={Twitter}
                   alt="orion"
                 />
+              </a>
+            </div>
+          </div>
+          <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+            <div className="rounded-md shadow text-center">
+              <a
+                href="https://dbeats.live"
+                className="w-max flex mx-auto z-500  items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light hover:shadow-md hover:rounded-none hover:scale-95 transform transition-all md:py-4 md:text-lg md:px-10"
+              >
+                Go To Beta App
+              </a>
+            </div>
+            <div className="mt-3 sm:mt-0 sm:ml-3 hidden">
+              <a
+                href="https://dbeats.live"
+                className="w-full flex z-500 items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light hover:scale-99 transform  md:py-4 md:text-lg md:px-10"
+              >
+                Go To Beta App
               </a>
             </div>
           </div>

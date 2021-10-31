@@ -13,21 +13,22 @@ export default function Example() {
                 aria-hidden="true"
               />
             </span>
-            <p className="ml-3 font-medium text-white truncate">
-              <span className="md:hidden">Join our waitlist</span>
-              <span className="hidden  md:inline">
+            <p className="ml-3 font-medium text-white truncate flex">
+              <span className="md:hidden self-center">Join our waitlist</span>
+              <div className="order-3 rounded p-3 ml-5 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto  hover:scale-99 ">
+                <a
+                  href="https://discord.gg/xZavZyAbx4"
+                  className=" shadow  items-center justify-center px-4 py-2 border border-transparent rounded-md text-sm font-medium text-dbeats-light bg-white transition-all transform hover:text-gray-900 hover:shadow-none "
+                >
+                  Join Now
+                </a>
+              </div>
+              <span className="hidden  md:inline self-center">
                 Big news! If You can create content You should join the waitlist
               </span>
             </p>
           </div>
-          <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
-            <a
-              href="https://discord.gg/xZavZyAbx4"
-              className=" items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-dbeats-light bg-white hover:scale-99 transition-all transform"
-            >
-              Join Now
-            </a>
-          </div>
+
           <div className="order-2 flex-shrink-0 sm:order-3 sm:ml-3 hidden">
             <button
               type="button"

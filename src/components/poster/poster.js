@@ -3,6 +3,9 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import animationData from "../../lotties/coolchick.json";
 import Lottie from "react-lottie";
+import Cards from "../cards/cards";
+import "../../assets/styles/styles.css";
+
 var ReactRotatingText = require("react-rotating-text");
 
 const defaultOptions = {
@@ -41,7 +44,7 @@ export default function Example() {
 
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
-              <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
+              <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl text-center lg:text-left">
                 <span className=" xl:inline block text-transparent bg-clip-text bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light drop-shadow-sm  ">
                   Decentralized{" "}
                 </span>{" "}
@@ -59,36 +62,19 @@ export default function Example() {
                   ]}
                 />
               </h1>
-              <p className="mt-3 text-base  text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              <p className="mt-3 text-base lg:text-left text-center  text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Run your community in the same place as you sell digital{" "}
                 <strong>NFTs</strong>, <strong>Music</strong>,{" "}
                 <strong>Arts</strong>, host <strong>Events</strong>, post{" "}
                 <strong>Articles</strong>, much more.
               </p>
-              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow text-center">
-                  <a
-                    href="https://dbeats.live"
-                    className="w-max flex    items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light hover:shadow-md hover:rounded-none hover:scale-99 transform transition-all md:py-4 md:text-lg md:px-10"
-                  >
-                    Go To Beta App
-                  </a>
-                </div>
-                <div className="mt-3 sm:mt-0 sm:ml-3 hidden">
-                  <a
-                    href="https://dbeats.live"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light hover:scale-99 transform  md:py-4 md:text-lg md:px-10"
-                  >
-                    Go To Beta App
-                  </a>
-                </div>
-              </div>
             </div>
           </main>
         </div>
       </div>
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 p-20">
-        <Lottie options={defaultOptions} />
+
+      <div className=" lg:inset-y-0 lg:right-0 lg:w-1/2 p-20">
+        <Cards />
       </div>
     </div>
   );

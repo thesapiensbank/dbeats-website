@@ -3,18 +3,19 @@ import Banner from "./components/banner/banner";
 import Poster from "./components/poster/poster";
 import Stars from "./components/starysky/starysky";
 import NFTsection from "./components/sections/nftsections";
-
+import Cards from "./components/cards/cards";
+import "./assets/styles/styles.css";
 function App() {
   return (
-    <div className={`  App`}>
+    <>
+      <Stars />
       <Banner />
 
-      <Stars />
-
+      <Cards />
       <Poster />
 
       <NFTsection />
-    </div>
+    </>
   );
 }
 
