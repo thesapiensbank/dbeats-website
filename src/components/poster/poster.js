@@ -50,6 +50,7 @@ export default function Example() {
                     "Streaming",
                     "Video on Demand",
                     "Concerts",
+                    "Metaverse",
                   ]}
                 />
               </h1>
