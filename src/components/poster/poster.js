@@ -34,15 +34,14 @@ export default function Example() {
           </Popover>
 
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-            <div className="sm:text-center lg:text-left">
-              <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl text-center lg:text-left">
-                <span className=" xl:inline block text-transparent bg-clip-text bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light drop-shadow-sm  ">
-                  Decentralized{" "}
+            <div className="sm:text-center lg:text-left pt-10">
+              <h1 className="text-6xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl text-center lg:text-left">
+                <span className="font-proxima-reg lg:text-7xl text-4xl xl:inline block text-transparent bg-clip-text bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light drop-shadow-sm  ">
+                  DECENTRALIZED{" "}
                 </span>{" "}
                 <span className="block text-transparent bg-clip-text bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light drop-shadow-sm xl:inline"></span>
-                <br />
                 <ReactRotatingText
-                  className="block text-transparent bg-clip-text bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light drop-shadow-sm xl:inline"
+                  className="font-proxima-reg lg:text-7xl text-4xl block text-transparent bg-clip-text bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light drop-shadow-sm xl:inline"
                   items={[
                     "Social Media",
                     "NFT Marketplace",
@@ -54,7 +53,7 @@ export default function Example() {
                   ]}
                 />
               </h1>
-              <p className="mt-3 text-base lg:text-left text-center  text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              <p className="mt-3 text-base lg:text-left text-center font-proxima-reg text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Run your community in the same place as you sell digital{" "}
                 <strong>NFTs</strong>, <strong>Music</strong>,{" "}
                 <strong>Arts</strong>, host <strong>Events</strong>, post{" "}
