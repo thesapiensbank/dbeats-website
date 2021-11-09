@@ -55,8 +55,8 @@ body {
 @media screen and (max-width: 768px) {
   #root > .nft-card {
     position: absolute;
-    width: 75vw;
-    height: 100vh;
+    width: 70vw;
+    height: 80vh;
     will-change: transform;
     display: flex;
     align-items: flex-end;
@@ -71,8 +71,8 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     width: 45vh;
-    max-width: 300px;
-    height: 65vh;
+    max-width: 200px;
+    height: 35vh;
     max-height: 570px;
     will-change: transform;
     border-radius: 10px;
