@@ -36,12 +36,12 @@ export default function Example() {
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left pt-10">
               <h1 className="text-6xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl text-center lg:text-left">
-                <span className="font-proxima-reg lg:text-7xl text-4xl xl:inline block text-transparent bg-clip-text bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light drop-shadow-sm  ">
+                <span className="font-proxima-reg lg:text-7xl md:text-3xl text-4xl xl:inline block text-transparent bg-clip-text bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light drop-shadow-sm  ">
                   DECENTRALIZED{" "}
                 </span>{" "}
                 <span className="block text-transparent bg-clip-text bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light drop-shadow-sm xl:inline"></span>
                 <ReactRotatingText
-                  className="font-proxima-reg lg:text-7xl text-4xl block text-transparent bg-clip-text bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light drop-shadow-sm xl:inline"
+                  className="font-proxima-reg lg:text-6xl md:text-2xl text-3xl block text-transparent bg-clip-text bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light drop-shadow-sm xl:inline"
                   items={[
                     "Social Media",
                     "NFT Marketplace",
