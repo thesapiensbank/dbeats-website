@@ -337,13 +337,23 @@ function NFTsection() {
           <img
             className="  rounded-xl h-36 mx-auto w-36  "
             src={ethonline}
+            alt="livepeer"
           ></img>
-          <img className="  rounded-xl h-36 mx-auto w-36  " src={hfs2}></img>
           <img
             className="  rounded-xl h-36 mx-auto w-36  "
+            src={hfs2}
+            alt="livepeer"
+          ></img>
+          <img
+            className="  rounded-xl h-36 mx-auto w-36  "
+            alt="livepeer"
             src={w3weekend}
           ></img>
-          <img className="  rounded-xl h-36 mx-auto w-36  " src={web3jam}></img>{" "}
+          <img
+            className="  rounded-xl h-36 mx-auto w-36  "
+            alt="livepeer"
+            src={web3jam}
+          ></img>{" "}
           <div></div>
         </div>
       </div>{" "}
@@ -355,10 +365,14 @@ function NFTsection() {
           MEDIA
         </h3>
         <div className="grid grid-cols-2 lg:grid-cols-4 grid-flow-row  p-10 gap-10 md:px-24 px-12">
-          <img className="px-4" src={livepeer}></img>
-          <img className="pt-1" src={protocolLabs}></img>
-          <img className="px-8 pt-2" src={zora}></img>
-          <img className="px-4 -pt-5  rounded-lg" src={superfluid}></img>
+          <img className="px-4" src={livepeer} alt="livepeer"></img>
+          <img className="pt-1" src={protocolLabs} alt="livepeer"></img>
+          <img className="px-8 pt-2" src={zora} alt="livepeer"></img>
+          <img
+            className="px-4 -pt-5  rounded-lg"
+            src={superfluid}
+            alt="livepeer"
+          ></img>
         </div>
       </div>{" "}
       <br></br>
@@ -369,13 +383,21 @@ function NFTsection() {
           SPONSORS
         </h3>
         <div className="grid grid-cols-2 lg:grid-cols-5 grid-flow-row  p-10 gap-10 md:px-24 px-12">
-          <img className="px-6 py-4 bg-white  rounded-lg" src={compound}></img>
+          <img
+            className="px-6 py-4 bg-white  rounded-lg"
+            src={compound}
+            alt="livepeer"
+          ></img>
 
-          <img className="px-4 pt-4" src={livepeer}></img>
-          <img className="pt-1 pt-4" src={protocolLabs}></img>
-          <img className="px-8 pt-4" src={zora}></img>
+          <img className="px-4 pt-4" src={livepeer} alt="livepeer"></img>
+          <img className="  pt-4" src={protocolLabs} alt="livepeer"></img>
+          <img className="px-8 pt-4" src={zora} alt="livepeer"></img>
 
-          <img className=" rounded-lg px-3 bg-white" src={superfluid}></img>
+          <img
+            className=" rounded-lg px-3 bg-white"
+            src={superfluid}
+            alt="livepeer"
+          ></img>
         </div>
       </div>
       <br></br>
