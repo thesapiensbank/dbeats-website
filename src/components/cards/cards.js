@@ -2,6 +2,13 @@ import { useState } from "react";
 import { useSprings, animated, interpolate } from "react-spring";
 import { useGesture } from "react-use-gesture";
 
+function myRandomInts(quantity, max) {
+  const set = new Set();
+  while (set.size < quantity) {
+    set.add(Math.floor(Math.random() * max) + 1);
+  }
+  return set;
+}
 const cards = [
   "https://c.tenor.com/MGv4a9D9D3MAAAAC/deadpool-marvel.gif",
 
@@ -12,6 +19,7 @@ const cards = [
   "https://i.giphy.com/media/xTiTnpM6F3IBcgTlni/giphy.webp",
 ];
 
+const randomCards = myRandomInts(cards.length, cards.length);
 // const cards = [
 //   "https://upload.wikimedia.org/wikipedia/en/f/f5/RWS_Tarot_08_Strength.jpg",
 //   "https://upload.wikimedia.org/wikipedia/en/5/53/RWS_Tarot_16_Tower.jpg",
@@ -72,6 +80,7 @@ export default function Deck() {
         setTimeout(() => gone.clear() || set((i) => to(i)), 600);
     }
   );
+
   // Now we're just mapping the animated values to our view, that's it. Btw, this component only renders once. :-)
   return props.map(({ x, y, rot, scale }, i) => (
     <animated.div
@@ -93,9 +102,7 @@ export default function Deck() {
           transform: interpolate([rot, scale], trans),
           backgroundImage: `url(${cards[i]})`,
         }}
-      >
-        {" "}
-      </animated.div>
+      ></animated.div>
     </animated.div>
   ));
 }

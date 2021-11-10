@@ -11,6 +11,17 @@ import Twitter from "../../assets/icons/twitter.png";
 import orion from "../../assets/propics/orion.jpg";
 import cat from "../../assets/propics/cat.jpg";
 
+import compound from "../../assets/images/compound.png";
+import zora from "../../assets/images/zora.png";
+import livepeer from "../../assets/images/livepeer.png";
+import protocolLabs from "../../assets/images/protocolLabs.webp";
+import superfluid from "../../assets/images/superfluid.png";
+
+import ethonline from "../../assets/images/ethonline.png";
+import w3weekend from "../../assets/images/w3weekend.png";
+import hfs2 from "../../assets/images/hfs2.png";
+import web3jam from "../../assets/images/web3jam.png";
+
 const defaultOptions = {
   loop: true,
   autoplay: true,
@@ -316,10 +327,64 @@ function NFTsection() {
           <Lottie className="rounded-xl" options={defaultOptions4} />
         </h3>
       </div>
-      <div className="bg-gray-50 z-500">
+      {/* Sections */}
+      <div className="text-center self-center">
+        <h3 className="text-center self-center tracking-tight font-extrabold  font-proxima-reg lg:text-3xl md:text-3xl text-4xl xl:inline block text-transparent bg-clip-text bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light drop-shadow-sm  ">
+          EVENTS
+        </h3>
+        <div className="grid grid-cols-2 lg:grid-cols-6 mx-auto grid-flow-row self-center gap-10  p-10   md:px-24 px-12">
+          <div className="hidden md:block"></div>
+          <img
+            className="  rounded-xl h-36 mx-auto w-36  "
+            src={ethonline}
+          ></img>
+          <img className="  rounded-xl h-36 mx-auto w-36  " src={hfs2}></img>
+          <img
+            className="  rounded-xl h-36 mx-auto w-36  "
+            src={w3weekend}
+          ></img>
+          <img className="  rounded-xl h-36 mx-auto w-36  " src={web3jam}></img>{" "}
+          <div></div>
+        </div>
+      </div>{" "}
+      <div className="text-center self-center hidden ">
+        <br></br>
+        <br></br>
+        <br></br>
+        <h3 className="text-center self-center tracking-tight font-extrabold font-proxima-reg lg:text-3xl md:text-3xl text-4xl xl:inline block text-transparent bg-clip-text bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light drop-shadow-sm  ">
+          MEDIA
+        </h3>
+        <div className="grid grid-cols-2 lg:grid-cols-4 grid-flow-row  p-10 gap-10 md:px-24 px-12">
+          <img className="px-4" src={livepeer}></img>
+          <img className="pt-1" src={protocolLabs}></img>
+          <img className="px-8 pt-2" src={zora}></img>
+          <img className="px-4 -pt-5  rounded-lg" src={superfluid}></img>
+        </div>
+      </div>{" "}
+      <br></br>
+      <br></br>
+      <br></br>
+      <div className="text-center self-center">
+        <h3 className="text-center self-center tracking-tight font-extrabold font-proxima-reg lg:text-3xl md:text-3xl text-4xl xl:inline block text-transparent bg-clip-text bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light drop-shadow-sm  ">
+          SPONSORS
+        </h3>
+        <div className="grid grid-cols-2 lg:grid-cols-5 grid-flow-row  p-10 gap-10 md:px-24 px-12">
+          <img className="px-6 py-4 bg-white  rounded-lg" src={compound}></img>
+
+          <img className="px-4 pt-4" src={livepeer}></img>
+          <img className="pt-1 pt-4" src={protocolLabs}></img>
+          <img className="px-8 pt-4" src={zora}></img>
+
+          <img className=" rounded-lg px-3 bg-white" src={superfluid}></img>
+        </div>
+      </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <div className="bg-black z-600">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl text-left">
-            <span className="block">Ready to dive in?</span>
+            <span className="block text-white">Ready to dive in?</span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light drop-shadow-sm">
               Follow for more latest updates
             </span>
@@ -352,15 +417,15 @@ function NFTsection() {
             <div className="rounded-md shadow text-center hover:scale-95  transform transition-all">
               <a
                 href="https://dbeats.live"
-                className="w-max flex mx-auto z-500  items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light hover:shadow-md hover:rounded-none  transform transition-all md:py-4 md:text-lg md:px-10"
+                className="  flex mx-auto z-500  items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light hover:shadow-md hover:rounded-none  transform transition-all md:py-4 md:text-lg md:px-10"
               >
                 Go To Beta App
               </a>
             </div>
-            <div className="mt-3 sm:mt-0 sm:ml-3 hidden">
+            <div className="mt-3 w-max sm:mt-0 sm:ml-3 hidden hover:scale-95  transform transition-all">
               <a
                 href="https://dbeats.live"
-                className="w-full flex z-500 items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light hover:scale-99 transform  md:py-4 md:text-lg md:px-10"
+                className="w-full flex z-500 items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-br from-dbeats-secondary-light to-dbeats-light   transform  md:py-4 md:text-lg md:px-10"
               >
                 Go To Beta App
               </a>
